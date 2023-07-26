@@ -7,7 +7,7 @@
 
 |                                         第三方                                          | token | openid | 支付 | 回调 | 退款 | 订单查询 | 解密手机号 | 分账 | 模版消息 |
 | :-------------------------------------------------------------------------------------: | :---: | :----: | :--: | :--: | :--: | :------: | :--------: | :--: | :------: |
-| [快手小程序](https://mp.kuaishou.com/docs/develop/server/epay/interfaceDefinition.html) |   ✓   |   ✓    |  ✓   |  ✓   |  ✓   |    ✓     |     ✓      |  ✓   |    x     |
+| [快手小程序](https://mp.kuaishou.com/docs/develop/server/epay/interfaceDefinition.html) |   ✓   |   ✓    |  ✓   |  ✓   |  ✓   |    ✓     |     ✓      |  ✓   |    ✓     |
 
 ## 安装
 
