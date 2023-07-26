@@ -29,7 +29,7 @@ composer require code-lives/kuaishou 1.0.0
 use Applet\Assemble\Kuaishou;
 
 // 小程序下单
-$pay= Kuaishou::init($config)->set("订单号","金额","描述","描述")->getParam();
+$pay= Kuaishou::init($config)->set("订单号","金额","描述",'openid', 'access_token')->getParam();
 
 ```
 
