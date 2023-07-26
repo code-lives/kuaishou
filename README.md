@@ -170,7 +170,7 @@ $data=[
 ]
 ```
 
-# 异步通知
+### 支付回调
 
 ```php
 $pay = Kuaishou::init($config);
