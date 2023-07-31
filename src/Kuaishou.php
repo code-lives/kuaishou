@@ -150,7 +150,7 @@ class Kuaishou
         ];
         $result = json_decode($this->curl_post($this->codedUrl, $data), true);
         if ($result['result'] == 1) {
-            return $result['openid'] = $result['open_id'];
+            $result['openid'] = $result['open_id'];
         }
         return $result;
     }
