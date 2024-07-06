@@ -162,7 +162,7 @@ class Kuaishou
      */
     public function notifyCheck()
     {
-        if (md5(json_encode($this->getNotifyOrder()) . $this->app_secret) != $_SERVER['HTTP_KWAISIGN']) {
+        if (md5(json_encode($this->getNotifyOrder(), JSON_UNESCAPED_UNICODE) . $this->app_secret) != $_SERVER['HTTP_KWAISIGN']) {
             return false;
         }
         return true;
